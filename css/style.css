@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.top {
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    justify-content: center;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: auto;
+}
+.image1 {
+    width: 150px;
+    margin-top: 40px;
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: space-between;
+}
+.menu {
+    list-style-type: none;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+.menu li:nth-child(4) {
+    margin-right: 100px;
+}
+.menu ul {
+    display: none;
+    list-style-type: none; 
+    margin: 0px;
+    padding: 0px;
+}
+.menu li:hover ul {
+    display: block ;
+    position: absolute;
+    top: 20px; 
+    left: 0px; 
+    z-index: 100;
+    font-size: 15px;
+}
+.menu li {
+    position: relative;
+    width: 200px;
+}
+.menu li a {
+    color: black;
+}
+.menu li a:hover {
+    color: white;
+}
+.menu li ul li {
+    border: 1px solid black;
+    margin-top: 5px;
+}
+span {
+    color: blue;
+}
+@font-face {
+    font-family: 'Police';
+    src: url('../Police/Quango.otf');
+}
+h1 {
+    font-family: 'Police';
+    color: white;
+    font-size: 80px;
+    margin-top: 20px;
+}
+header div img {
+    width: 96px;
+    height: 61px;
+    margin-top: 80px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 250px;
+}
+.ligne {
+    height: 3px;
+    background-color: cornflowerblue;
+}
+.titre1 {
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Police';
+}
+header div p {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.fas {
+    color: cornflowerblue;
+}
+i {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.qui {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.infos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+.infos p {
+    margin-left: 50px;
+}
+.image2 {
+    width: 500px;
+    margin-top: 50px;
+}
+.par1 {
+    margin-top: 50px;
+}
+.separateur {
+    background-image: url(../img/image5.jpg);
+    height: 500px;
+    background-size: cover;
+    margin-top: 50px;
+}
+.titre2 {
+    font-size: 50px;
+    margin-top: 50px;
+    font-family: 'Police';
+    text-align: center;
+    margin-bottom: 50px;
+}
+.conteneur1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 220px;
+    padding-right: 100px;
+}
+.contenant1 {
+    background-image: url(../img/image6.png);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenant2 {
+    background-image: url(../img/image7.jpg);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenant3 {
+    background-image: url(../img/image8.png);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenant4 {
+    background-image: url(../img/image9.png);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenant5 {
+    background-image: url(../img/image10.jpg);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contenant6 {
+    background-image: url(../img/image11.jpg);
+    background-size: cover;
+    width: 310px;
+    margin-left: 120px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.opac {
+    padding-top: 60px;
+    /*opacity: 0;*/
+}
