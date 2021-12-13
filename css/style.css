@@ -103,10 +103,8 @@ header div p {
     padding-bottom: 20px;
     text-align: center;
 }
-.fas {
+.icon {
     color: cornflowerblue;
-}
-i {
     margin-right: 20px;
     margin-top: 30px;
 }
@@ -283,4 +281,61 @@ i {
     width: 25%;
     margin-left: 100px;
     text-align: center;
+    border: black;
+    background-color: rgb(124, 122, 122);
+    color: white;
+    margin-top: 50px;
+}
+.ligne2 {
+    height: 3px;
+    background-color: cornflowerblue;
+    margin-top: 50px;
+}
+footer {
+    background-color: black;
+    color: blue;
+}
+.titre3 {
+    font-size: 50px;
+    font-family: 'Police';
+    text-align: center;
+    padding-bottom: 50px;
+}
+.blanc {
+    color: white;
+    font-weight: bold;
+}
+.cgu {
+    font-size: 50px;
+    font-weight: bolder;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+.reseau {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+.fb {
+    color: blue;
+    margin-right: 30px;
+}
+.twt {
+    color: white;
+    margin-right: 30px;
+}
+.ins {
+    margin-right: 30px;
+}
+.ytb {
+    color: red;
+    margin-right: 30px;
+}
+.lin {
+    color: cornflowerblue;
+    margin-right: 30px;
 }
